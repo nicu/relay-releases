@@ -1,6 +1,8 @@
 # Relay
 
-A desktop app for managing your Jira issues: offline-first, with an Inbox that shows only what your rules send it.
+A desktop app for managing your Jira issues: offline-first, with an Inbox that shows only what your rules send it, and a timesheet that fills itself from what you did.
+
+**📖 Guide: [nicu.github.io/relay-releases](https://nicu.github.io/relay-releases/)**: how Relay works, with screenshots, from getting started to time tracking without timers.
 
 This repository holds Relay's **releases** and **issues**. The source code is not here.
 
@@ -11,6 +13,8 @@ Get the latest version from [Releases](https://github.com/nicu/relay-releases/re
 - **macOS**: `Relay-darwin-arm64-<version>.zip` (Apple silicon). Unzip it and move **Relay** to Applications.
 - **Windows**: `Relay-<version> Setup.exe`.
 - **Linux**: the `.deb` (Debian, Ubuntu) or `.rpm` (Fedora, openSUSE) package.
+
+Then follow [Getting started](https://nicu.github.io/relay-releases/getting-started) in the Guide.
 
 ## Updates
 
