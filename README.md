@@ -4,6 +4,24 @@ A desktop app for managing your Jira issues: offline-first, with an Inbox that s
 
 **📖 Guide: [nicu.github.io/relay-releases](https://nicu.github.io/relay-releases/)**: how Relay works, with screenshots, from getting started to time tracking without timers.
 
+### An Inbox of only what needs you
+
+Every change in Jira is checked against your rules; only what they send to your Inbox shows there, each item saying why.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicu/relay-releases/raw/gh-pages/shots/inbox/inbox.dark.png">
+  <img alt="Relay's Inbox: items grouped by why they're there, with a mention open beside the list." src="https://github.com/nicu/relay-releases/raw/gh-pages/shots/inbox/inbox.light.png">
+</picture>
+
+### Your timesheet, filled from what you did
+
+No timers: your commits, comments and status moves become drafts on the Timesheet, each saying why it's there, and you accept them with one key.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicu/relay-releases/raw/gh-pages/shots/time-tracking/drafts-week.dark.png">
+  <img alt="Relay's Timesheet: a logged day, then dashed drafts made from the week's commits, comments and status moves, ready to accept." src="https://github.com/nicu/relay-releases/raw/gh-pages/shots/time-tracking/drafts-week.light.png">
+</picture>
+
 This repository holds Relay's **releases** and **issues**. The source code is not here.
 
 ## Download
