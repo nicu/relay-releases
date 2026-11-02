@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-reference/settings" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.2">
+<title data-rh="true">Settings | Relay</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://nicu.github.io/relay-releases/reference/settings"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Settings | Relay"><meta data-rh="true" name="description" content="Every setting in Relay, section by section, as the Settings window shows them."><meta data-rh="true" property="og:description" content="Every setting in Relay, section by section, as the Settings window shows them."><link data-rh="true" rel="icon" href="/relay-releases/img/icon.png"><link data-rh="true" rel="canonical" href="https://nicu.github.io/relay-releases/reference/settings"><link data-rh="true" rel="alternate" href="https://nicu.github.io/relay-releases/reference/settings" hreflang="en"><link data-rh="true" rel="alternate" href="https://nicu.github.io/relay-releases/reference/settings" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Settings","item":"https://nicu.github.io/relay-releases/reference/settings"}]}</script><link rel="stylesheet" href="/relay-releases/assets/css/styles.76fe87db.css">
+<script src="/relay-releases/assets/js/runtime~main.87b13f0d.js" defer="defer"></script>
+<script src="/relay-releases/assets/js/main.f86fa431.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/relay-releases/img/icon.png"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/relay-releases/"><div class="navbar__logo"><img src="/relay-releases/img/icon.png" alt="" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/relay-releases/img/icon.png" alt="" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Relay</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/relay-releases/">Guide</a><a class="navbar__item navbar__link" href="/relay-releases/plugins">Plugin guide</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/nicu/relay-releases/releases" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Download<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><a href="https://github.com/nicu/relay-releases/issues" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Report an issue<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><svg aria-hidden="true" class="searchIcon_T3tP" focusable="false" viewBox="0 0 16 16"><path fill="currentColor" d="M6.02945 10.20327a4.17382 4.17382 0 1 1 4.17382-4.17382 4.15609 4.15609 0 0 1-4.17382 4.17382Zm9.69195 4.2199-4.8225-4.82338A5.88021 5.88021 0 0 0 12.058 6.02856 6.00467 6.00467 0 1 0 9.59979 10.8989l4.82338 4.82338a.89729.89729 0 0 0 1.29912 0 .89749.89749 0 0 0-.00087-1.29909Z"></path></svg><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/relay-releases/"><span class="linkLabel_WmDU">Relay</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/relay-releases/time-tracking"><span class="categoryLinkLabel_W154">Time tracking without timers</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/time-tracking"><span class="linkLabel_WmDU">How it works</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/time-tracking/signals"><span class="linkLabel_WmDU">Signals</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/time-tracking/drafts"><span class="linkLabel_WmDU">Drafts</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/time-tracking/review"><span class="linkLabel_WmDU">Reviewing and accepting</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/time-tracking/setup"><span class="linkLabel_WmDU">Setting it up</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/time-tracking/timesheet"><span class="linkLabel_WmDU">The Timesheet</span></a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/relay-releases/inbox-and-rules"><span class="linkLabel_WmDU">Inbox and rules</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/relay-releases/getting-started"><span class="linkLabel_WmDU">Getting started</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/relay-releases/go-to-issue"><span class="categoryLinkLabel_W154">Finding your way</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/go-to-issue"><span class="linkLabel_WmDU">Go to issue</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/menus"><span class="linkLabel_WmDU">Menus you can type in</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/tabs"><span class="linkLabel_WmDU">Tabs: keep your active issues open</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/relay-releases/views-and-filters"><span class="categoryLinkLabel_W154">Your issues</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/views-and-filters"><span class="linkLabel_WmDU">Lists, boards and filters</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/epics"><span class="linkLabel_WmDU">Epics</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/draft-issues"><span class="linkLabel_WmDU">Draft issues: notes and plans of your own</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/relay-releases/assistant"><span class="categoryLinkLabel_W154">The Assistant</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/assistant"><span class="linkLabel_WmDU">The Assistant</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/recipes"><span class="linkLabel_WmDU">Recipes</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/relay-releases/offline-and-sync"><span class="categoryLinkLabel_W154">Offline</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/offline-and-sync"><span class="linkLabel_WmDU">Offline and sync</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/working-offline"><span class="linkLabel_WmDU">Working offline</span></a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/relay-releases/privacy-and-security"><span class="linkLabel_WmDU">Privacy and security</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/relay-releases/reference/keyboard-shortcuts"><span class="categoryLinkLabel_W154">Reference</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/reference/keyboard-shortcuts"><span class="linkLabel_WmDU">Keyboard shortcuts</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/relay-releases/reference/search-operators"><span class="linkLabel_WmDU">Search operators</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/relay-releases/reference/settings"><span class="linkLabel_WmDU">Settings</span></a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/relay-releases/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Reference</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Settings</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Settings</h1></header><p>This page is made from Relay itself, so it always matches the version it documents. Open Settings with ⌘, (Ctrl+, on Windows and Linux), or find any of these in ⌘K by its name.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="app">App<a href="#app" class="hash-link" aria-label="Direct link to App" title="Direct link to App" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general">General<a href="#general" class="hash-link" aria-label="Direct link to General" title="Direct link to General" translate="no">​</a></h3>
+<p>How Relay starts and behaves on your computer.</p>
+<p><strong>Startup</strong></p>
+<ul>
+<li class=""><strong>Open at login</strong>: Start in the background when you log in.</li>
+<li class=""><strong>Search from anywhere</strong>: Opens Go to issue over any app, while Relay runs: comments, operators and all.</li>
+<li class=""><strong>Open to</strong>: The screen you see first.</li>
+<li class=""><strong>Dock badge</strong>: What the number on the app icon counts.</li>
+</ul>
+<p><strong>Region</strong></p>
+<ul>
+<li class=""><strong>Week starts on</strong>: Used by the Timesheet and worklog totals.</li>
+<li class=""><strong>Time format</strong></li>
+<li class=""><strong>Working hours</strong>: Gaps outside these hours are never suggested.</li>
+<li class=""><strong>Break</strong>: Taken within working hours; the rest is a working day, the Timesheet’s target and the rules’ working day.</li>
+<li class=""><strong>Working days</strong>: The days of the week you work.</li>
+</ul>
+<p><strong>Days off</strong></p>
+<ul>
+<li class=""><strong>Days off</strong>: Holidays and leave: not working days.</li>
+<li class=""><strong>Calendar feed</strong>: Your calendar’s private iCal address (Google: Secret address in iCal format; Outlook: a published calendar’s ICS link). Days it shows you out of office are days off.</li>
+<li class=""><strong>Out of office</strong>: Read hourly and when you Refresh.</li>
+</ul>
+<p><strong>Updates</strong></p>
+<ul>
+<li class=""><strong>Check for updates automatically</strong>: At startup and every few hours, from GitHub. Nothing downloads until you ask.</li>
+<li class=""><strong>Version</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="appearance">Appearance<a href="#appearance" class="hash-link" aria-label="Direct link to Appearance" title="Direct link to Appearance" translate="no">​</a></h3>
+<p>Theme, density and what the sidebar shows.</p>
+<p><strong>Theme</strong></p>
+<ul>
+<li class=""><strong>Theme</strong></li>
+<li class=""><strong>Colour</strong>: Selection, primary buttons and highlights, as picked: light colours take dark text. With tinted surfaces, the hue everything leans to.</li>
+<li class=""><strong>Surfaces</strong>: Neutral greys, a warm cream, or tinted: surfaces, statuses and labels leaning to the colour.</li>
+<li class=""><strong>Clay</strong>: Soft raised surfaces and sunken fields instead of lines, rounder corners and pills.</li>
+</ul>
+<p><strong>Interface</strong></p>
+<ul>
+<li class=""><strong>Density</strong>: Compact fits more rows on screen.</li>
+<li class=""><strong>Font size</strong></li>
+<li class=""><strong>Show projects and epics in the sidebar</strong></li>
+<li class=""><strong>Show counts in the sidebar</strong></li>
+<li class=""><strong>Group tabs by epic</strong>: A new tab joins its epic’s group. Tabs you move yourself stay where you put them.</li>
+<li class=""><strong>Open issues in preview</strong>: An opened issue shows without a tab, and the next one takes its place. Open in tab keeps it.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="notifications">Notifications<a href="#notifications" class="hash-link" aria-label="Direct link to Notifications" title="Direct link to Notifications" translate="no">​</a></h3>
+<p>When the app is allowed to interrupt you. What counts as worth it is decided by your rules.</p>
+<p><strong>Desktop</strong></p>
+<ul>
+<li class=""><strong>Notify for</strong>: Inbox items: whatever reaches Inbox, and rules with a Notify action.</li>
+<li class=""><strong>Sound</strong></li>
+<li class=""><strong>Quiet hours</strong>: Notifications wait, then arrive as one summary.</li>
+<li class=""><strong>Morning digest</strong>: One summary instead of overnight pings.</li>
+</ul>
+<p><strong>Rules</strong></p>
+<ul>
+<li class=""><strong>Notification rules</strong>: What reaches Inbox and what notifies lives on the Rules page.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="keyboard-shortcuts">Keyboard shortcuts<a href="#keyboard-shortcuts" class="hash-link" aria-label="Direct link to Keyboard shortcuts" title="Direct link to Keyboard shortcuts" translate="no">​</a></h3>
+<p>Click a shortcut to record a new one.</p>
+<hr>
+<ul>
+<li class=""><strong>Show key hints</strong>: The bar of keys under lists and boards.</li>
+<li class=""><strong>Shortcuts</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="search">Search<a href="#search" class="hash-link" aria-label="Direct link to Search" title="Direct link to Search" translate="no">​</a></h3>
+<p>Narrow issue searches in ⌘K, ⌘P and MCP with operators, like Gmail. Click an example to try it.</p>
+<hr>
+<ul>
+<li class=""><strong>Search operators</strong>: comment:, from:, field:, is:open, has:attachment, updated:&gt;7d…</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="jira">Jira<a href="#jira" class="hash-link" aria-label="Direct link to Jira" title="Direct link to Jira" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="account--sync">Account &amp; sync<a href="#account--sync" class="hash-link" aria-label="Direct link to Account &amp; sync" title="Direct link to Account &amp; sync" translate="no">​</a></h3>
+<p>Your Atlassian connection and how often Jira is checked.</p>
+<p><strong>Account</strong></p>
+<ul>
+<li class=""><strong>Account</strong></li>
+</ul>
+<p><strong>Sync</strong></p>
+<ul>
+<li class=""><strong>Sync every</strong>: Opening a page or the window still syncs what it shows.</li>
+<li class=""><strong>Sync when the computer wakes</strong></li>
+<li class=""><strong>Keep history for</strong>: Done issues, activity, rule runs and unviewed images. Inbox items stay until you clear them.</li>
+<li class=""><strong>Last sync</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="projects">Projects<a href="#projects" class="hash-link" aria-label="Direct link to Projects" title="Direct link to Projects" translate="no">​</a></h3>
+<p>The projects whose work Relay shows, besides your own issues. Triage lists their open issues nobody has.</p>
+<p><strong>Followed</strong></p>
+<ul>
+<li class=""><strong>Followed projects</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="workflow--rules">Workflow &amp; rules<a href="#workflow--rules" class="hash-link" aria-label="Direct link to Workflow &amp; rules" title="Direct link to Workflow &amp; rules" translate="no">​</a></h3>
+<p>Rule defaults, testing instructions and import/export.</p>
+<p><strong>Rules</strong></p>
+<ul>
+<li class=""><strong>Run rules after sync</strong>: Off: rules only run on schedule and on demand.</li>
+<li class=""><strong>Rules</strong></li>
+</ul>
+<p><strong>Testing instructions</strong></p>
+<ul>
+<li class=""><strong>Field</strong>: Used by the Testing instructions condition.</li>
+<li class=""><strong>Template text</strong>: Instructions still equal to this count as not filled. Empty: learned from your issues.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="timesheet">Timesheet<a href="#timesheet" class="hash-link" aria-label="Direct link to Timesheet" title="Direct link to Timesheet" translate="no">​</a></h3>
+<p>How timesheet drafts share out a day from your activity.</p>
+<p><strong>Drafts</strong></p>
+<ul>
+<li class=""><strong>Worklog steps</strong>: Time logged or changed here rounds to the nearest step; so do timesheet drafts. Worklogs already in Jira keep theirs.</li>
+<li class=""><strong>Never draft time for</strong>: Projects or issues, comma-separated: SUPPORT is every SUPPORT issue, PAY-12 just that one.</li>
+<li class=""><strong>Ignore changes to</strong>: Fields, comma-separated, whose changes are no signal.</li>
+</ul>
+<p><strong>Signal weights</strong></p>
+<ul>
+<li class=""><strong>Commit</strong>: A commit of yours naming the issue.</li>
+<li class=""><strong>Comment</strong>: A comment you wrote.</li>
+<li class=""><strong>Status move</strong>: Each further move the same day counts half the one before.</li>
+<li class=""><strong>Created</strong>: An issue you created.</li>
+<li class=""><strong>Assigned to you</strong>: Fades like status moves.</li>
+<li class=""><strong>Hand-off</strong>: Assigning it to someone else; only alongside other work that day. Fades like status moves.</li>
+<li class=""><strong>Other field change</strong>: Fades like status moves.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="repositories">Repositories<a href="#repositories" class="hash-link" aria-label="Direct link to Repositories" title="Direct link to Repositories" translate="no">​</a></h3>
+<p>Your local clones, for this account. Relay reads them and never changes them.</p>
+<p><strong>Linked</strong></p>
+<ul>
+<li class=""><strong>Repositories</strong>: Activity and timesheet drafts read your commits in them; the Assistant reads their code (with several, a chat about an issue reads the ones whose branches or commits name it, or asks which).</li>
+<li class=""><strong>Your commit emails</strong>: Comma-separated. Your commits are the ones by these or by the repository’s git user.email; git’s config stays as it is.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="assistant">Assistant<a href="#assistant" class="hash-link" aria-label="Direct link to Assistant" title="Direct link to Assistant" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="assistant-1">Assistant<a href="#assistant-1" class="hash-link" aria-label="Direct link to Assistant" title="Direct link to Assistant" translate="no">​</a></h3>
+<p>What the Assistant offers you by default. Everything here can be changed per chat.</p>
+<p><strong>Quick actions</strong></p>
+<ul>
+<li class=""><strong>Quick actions</strong></li>
+</ul>
+<p><strong>Code</strong></p>
+<ul>
+<li class=""><strong>Use code from repositories</strong>: Lets answers and drafts read branches, commits and files linked to the issue.</li>
+</ul>
+<p><strong>Changes</strong></p>
+<ul>
+<li class=""><strong>Assistant can</strong>: Read &amp; write lets it make timesheet drafts, change issues, comment, log work and triage Inbox, as an MCP client with write access can.</li>
+<li class=""><strong>Ask before changes</strong>: Its changes wait in Inbox for your OK. Timesheet drafts and triage run directly: drafts stay here until you accept them.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="model">Model<a href="#model" class="hash-link" aria-label="Direct link to Model" title="Direct link to Model" translate="no">​</a></h3>
+<p>The assistant is optional. Everything else works without it.</p>
+<p><strong>Assistant</strong></p>
+<ul>
+<li class=""><strong>Provider</strong>: Claude or OpenAI (GPT, Codex) with your API key, or any server with an OpenAI-compatible API, on this computer or remote. Off turns the Assistant off.</li>
+</ul>
+<p><strong>Connection</strong></p>
+<ul>
+<li class=""><strong>Endpoint</strong>: The server’s OpenAI-compatible base URL, usually ending in /v1.</li>
+<li class=""><strong>Model</strong></li>
+<li class=""><strong>API key</strong></li>
+<li class=""><strong>Status</strong></li>
+<li class=""><strong>What leaves this computer</strong></li>
+</ul>
+<p><strong>Speed</strong></p>
+<ul>
+<li class=""><strong>Answer times</strong>: How long the model in use took to answer lately, whole turns: compare models or settings.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mcp--integrations">MCP &amp; integrations<a href="#mcp--integrations" class="hash-link" aria-label="Direct link to MCP &amp; integrations" title="Direct link to MCP &amp; integrations" translate="no">​</a></h3>
+<p>Let agents and other tools use Relay.</p>
+<p><strong>MCP server</strong></p>
+<ul>
+<li class=""><strong>Local MCP server</strong>: Agents like Claude Code, Claude Desktop, Codex and ChatGPT can read issues, triage Inbox and work with rules.</li>
+<li class=""><strong>Status</strong></li>
+<li class=""><strong>Ask before write tools</strong>: Rule changes from MCP wait in Inbox for your OK. Triage runs directly.</li>
+<li class=""><strong>Allow Jira searches</strong>: Lets clients run JQL on Jira with your account, beyond the issues stored here.</li>
+<li class=""><strong>Port</strong>: Local only (127.0.0.1).</li>
+</ul>
+<p><strong>Clients</strong></p>
+<ul>
+<li class=""><strong>Clients</strong>: Each client gets its own token; remove one to cut it off. ChatGPT’s chats can’t reach a server on this computer; its desktop app uses Relay through Codex.</li>
+</ul>
+<p><strong>Tools</strong></p>
+<ul>
+<li class=""><strong>Tools</strong>: What clients may call. A tool ticked off isn’t listed to any client; Relay’s Assistant keeps all of them.</li>
+</ul>
+<p><strong>Open in</strong></p>
+<ul>
+<li class=""><strong>Default app</strong>: Where Open in…’s shortcut and the issue header’s button start a conversation.</li>
+<li class=""><strong>Claude Code opens in</strong>: Claude Desktop’s Code tab, or a terminal running the claude command.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="data">Data<a href="#data" class="hash-link" aria-label="Direct link to Data" title="Direct link to Data" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="data--privacy">Data &amp; privacy<a href="#data--privacy" class="hash-link" aria-label="Direct link to Data &amp; privacy" title="Direct link to Data &amp; privacy" translate="no">​</a></h3>
+<p>Everything is stored on this computer.</p>
+<p><strong>Storage</strong></p>
+<ul>
+<li class=""><strong>Local database</strong></li>
+<li class=""><strong>Cache attachments</strong>: Keeps images and videos you view for offline viewing. Other files open in Jira.</li>
+<li class=""><strong>Attachment cache limit</strong>: The least recently viewed go first.</li>
+<li class=""><strong>Cached attachments</strong></li>
+<li class=""><strong>Clear data</strong>: Pick what to clear: copies of Jira data download again; your own data is gone.</li>
+</ul>
+<p><strong>Reset</strong></p>
+<ul>
+<li class=""><strong>Reset all settings</strong>: Keeps your Jira connection and rules.</li>
+<li class=""><strong>Sign out and remove all data</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="about">About<a href="#about" class="hash-link" aria-label="Direct link to About" title="Direct link to About" translate="no">​</a></h3>
+<p>Relay</p>
+<hr>
+<ul>
+<li class=""><strong>Version</strong></li>
+<li class=""><strong>Logs</strong>: For bug reports.</li>
+<li class=""><strong>Release notes</strong>: What changed in this version.</li>
+<li class=""><strong>Report an issue</strong>: A bug or an idea, on GitHub.</li>
+<li class=""><strong>Licenses</strong>: The open-source software Relay is built with.</li>
+</ul></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/relay-releases/reference/search-operators"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Search operators</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#app" class="table-of-contents__link toc-highlight">App</a><ul><li><a href="#general" class="table-of-contents__link toc-highlight">General</a></li><li><a href="#appearance" class="table-of-contents__link toc-highlight">Appearance</a></li><li><a href="#notifications" class="table-of-contents__link toc-highlight">Notifications</a></li><li><a href="#keyboard-shortcuts" class="table-of-contents__link toc-highlight">Keyboard shortcuts</a></li><li><a href="#search" class="table-of-contents__link toc-highlight">Search</a></li></ul></li><li><a href="#jira" class="table-of-contents__link toc-highlight">Jira</a><ul><li><a href="#account--sync" class="table-of-contents__link toc-highlight">Account &amp; sync</a></li><li><a href="#projects" class="table-of-contents__link toc-highlight">Projects</a></li><li><a href="#workflow--rules" class="table-of-contents__link toc-highlight">Workflow &amp; rules</a></li><li><a href="#timesheet" class="table-of-contents__link toc-highlight">Timesheet</a></li><li><a href="#repositories" class="table-of-contents__link toc-highlight">Repositories</a></li></ul></li><li><a href="#assistant" class="table-of-contents__link toc-highlight">Assistant</a><ul><li><a href="#assistant-1" class="table-of-contents__link toc-highlight">Assistant</a></li><li><a href="#model" class="table-of-contents__link toc-highlight">Model</a></li><li><a href="#mcp--integrations" class="table-of-contents__link toc-highlight">MCP &amp; integrations</a></li></ul></li><li><a href="#data" class="table-of-contents__link toc-highlight">Data</a><ul><li><a href="#data--privacy" class="table-of-contents__link toc-highlight">Data &amp; privacy</a></li><li><a href="#about" class="table-of-contents__link toc-highlight">About</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">© 2026 Relay</div></div></div></footer></div>
+</body>
+</html>
